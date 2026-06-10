@@ -1,2 +1,2 @@
-# Semeando-um-futuro-Sustent-vel
+# Semeando-um-futuro-Sustentavel
 Agrinho 2026
