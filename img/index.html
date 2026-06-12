@@ -3,143 +3,107 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Semeando para um Futuro Sustentável</title>
-    <style>
-        /* Estilos visuais do site */
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f9f4;
-            color: #333;
-            line-height: 1.6;
-        }
-
-        header {
-            background-color: #2e7d32;
-            color: white;
-            text-align: center;
-            padding: 2rem 1rem;
-        }
-
-        header h1 {
-            margin: 0;
-            font-size: 2.5rem;
-        }
-
-        header p {
-            margin: 0.5rem 0 0 0;
-            font-size: 1.2rem;
-            font-style: italic;
-        }
-
-        nav {
-            background-color: #1b5e20;
-            text-align: center;
-            padding: 0.5rem;
-        }
-
-        nav a {
-            color: white;
-            text-decoration: none;
-            margin: 0 15px;
-            font-weight: bold;
-        }
-
-        nav a:hover {
-            text-decoration: underline;
-        }
-
-        .container {
-            max-width: 800px;
-            margin: 20px auto;
-            padding: 20px;
-            background: white;
-            border-radius: 8px;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-        }
-
-        h2 {
-            color: #2e7d32;
-            border-bottom: 2px solid #a5d6a7;
-            padding-bottom: 5px;
-        }
-
-        .card-container {
-            display: flex;
-            gap: 20px;
-            flex-wrap: wrap;
-            margin-top: 20px;
-        }
-
-        .card {
-            flex: 1;
-            min-width: 200px;
-            background-color: #e8f5e9;
-            padding: 15px;
-            border-radius: 6px;
-            border-left: 5px solid #4caf50;
-        }
-
-        footer {
-            text-align: center;
-            padding: 20px;
-            background-color: #2e7d32;
-            color: white;
-            margin-top: 40px;
-        }
-    </style>
+    <title>Agrotec Sustentável - Projeto Agrinho</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <header>
-        <h1>Semeando para um Futuro Sustentável</h1>
-        <p>Pequenas atitudes cultivam grandes mudanças.</p>
+        <div class="container header-flex">
+            <div class="logo">
+                <h1>Agrotec<span>Sustentável</span></h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#projeto">O Projeto</a></li>
+                    <li><a href="#comedouro">Comedouro</a></li>
+                    <li><a href="#beneficios">Benefícios</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <nav>
-        <a href="#sobre">Sobre</a>
-        <a href="#pilares">Pilares</a>
-        <a href="#acoes">Como Agir</a>
-    </nav>
+    <section id="inicio" class="hero">
+        <div class="container hero-content">
+            <h2>Inovação e Sustentabilidade no Campo</h2>
+            <p>Conheça o nosso projeto para o Concurso Agrinho: unindo tecnologia e cuidado com o meio ambiente para transformar a agricultura familiar.</p>
+            <a href="#comedouro" class="btn">Conhecer o Comedouro</a>
+        </div>
+    </section>
 
-    <div class="container">
-        <section id="sobre">
-            <h2>Nossa Missão</h2>
-            <p>O projeto <strong>Semeando para um Futuro Sustentável</strong> nasceu com o objetivo de conscientizar e engajar jovens nas práticas de preservação ambiental. Acreditamos que a sustentabilidade não é apenas uma escolha, mas a única forma de garantir o amanhã.</p>
-        </section>
-
-        <section id="pilares">
-            <h2>Os Três Pilares da Sustentabilidade</h2>
-            <div class="card-container">
-                <div class="card">
-                    <h3>Social</h3>
-                    <p>Cuidar das pessoas e garantir que as comunidades se desenvolvam de forma justa e igualitária.</p>
+    <section id="projeto" class="section-padding">
+        <div class="container">
+            <div class="section-title">
+                <h2>Concurso Agrinho</h2>
+                <p>A força da educação e da tecnologia moldando o futuro do agronegócio.</p>
+            </div>
+            <div class="grid-2">
+                <div class="text-block">
+                    <h3>O que é o Agrotec Sustentável?</h3>
+                    <p>É uma iniciativa que busca desenvolver soluções acessíveis e ecológicas para os desafios diários dos produtores rurais. Nosso foco é reduzir o desperdício, otimizar o tempo e reaproveitar materiais que seriam descartados, gerando economia e preservando a natureza.</p>
                 </div>
-                <div class="card">
-                    <h3>Ambiental</h3>
-                    <p>Preservar os recursos naturais, reduzir a poluição e proteger a nossa rica biodiversidade.</p>
-                </div>
-                <div class="card">
-                    <h3>Econômico</h3>
-                    <p>Produzir e consumir de forma inteligente, sem esgotar o que o planeta nos oferece.</p>
+                <div class="image-placeholder">
+                    <div class="mock-img">🌱 Tecnologia + Sustentabilidade</div>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <section id="acoes" style="margin-top: 30px;">
-            <h2>Como Você Pode Começar Hoje?</h2>
-            <ul>
-                <li><strong>Reduza o plástico:</strong> Troque sacolas plásticas por ecobags e evite descartáveis.</li>
-                <li><strong>Economize energia:</strong> Apague as luzes ao sair de um cômodo e tire aparelhos da tomada.</li>
-                <li><strong>Plante uma ideia:</strong> Crie uma horta em casa, plante uma árvore ou compartilhe esse conhecimento.</li>
-                <li><strong>Separe o lixo:</strong> Pratique a coleta seletiva na sua casa ou escola.</li>
-            </ul>
-        </section>
-    </div>
+    <section id="comedouro" class="section-padding bg-light">
+        <div class="container">
+            <div class="section-title">
+                <h2>Comedouro Automatizado Sustentável</h2>
+                <p>Automação inteligente e acessível para o manejo de animais.</p>
+            </div>
+            <div class="grid-2">
+                <div class="image-placeholder">
+                    <div class="mock-img">⚙️ Protótipo do Comedouro</div>
+                </div>
+                <div class="text-block">
+                    <h3>Como Funciona?</h3>
+                    <p>Desenvolvido com materiais recicláveis e componentes eletrônicos de baixo custo, o comedouro automatiza a alimentação dos animais de forma precisa.</p>
+                    <ul>
+                        <li><strong>Evita Desperdício:</strong> Libera a quantidade exata de ração nos horários programados.</li>
+                        <li><strong>Energia Limpa:</strong> Projetado para operar com baixo consumo energético.</li>
+                        <li><strong>Acessibilidade:</strong> Construído para que o pequeno produtor possa replicar a ideia facilmente.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="beneficios" class="section-padding">
+        <div class="container">
+            <div class="section-title">
+                <h2>Impactos do Projeto</h2>
+                <p>Como mudamos a realidade no campo</p>
+            </div>
+            <div class="grid-3">
+                <div class="card">
+                    <h3>01</h3>
+                    <h4>Ecológico</h4>
+                    <p>Utilização de materiais reutilizáveis e redução do impacto ambiental na propriedade rural.</p>
+                </div>
+                <div class="card">
+                    <h3>02</h3>
+                    <h4>Econômico</h4>
+                    <p>Diminuição drástica no desperdício de ração e insumos, gerando mais lucro para o produtor.</p>
+                </div>
+                <div class="card">
+                    <h3>03</h3>
+                    <h4>Social</h4>
+                    <p>Inclusão digital e tecnológica para a agricultura familiar de forma simples e didática.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <footer>
-        <p>&copy; 2026 - Criado com foco no nosso planeta 🌍</p>
+        <div class="container footer-content">
+            <p>&copy; 2026 Agrotec Sustentável - Projeto para o Concurso Agrinho.</p>
+            <p>Desenvolvido com foco em acessibilidade e inovação.</p>
+        </div>
     </footer>
 
 </body>
